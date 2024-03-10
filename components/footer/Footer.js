@@ -18,6 +18,7 @@ export const Footer = () => {
           <div className='mt-10 flex justify-center space-x-10'>
             {SOCIAL_LINK.map((social) => (
               <motion.a
+                key={social.name}
                 href={social.href}
                 className='text-gray-400 hover:text-gray-800'
                 variants={cardVariants}

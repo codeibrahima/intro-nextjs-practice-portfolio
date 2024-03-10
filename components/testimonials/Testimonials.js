@@ -19,6 +19,7 @@ export const Testimonials = () => {
         <div className='px-4 sm:px-6 sm:column-2 lg:columns-3'>
           {TESTI_DATA.map((testimonial) => (
             <motion.div
+              key={testimonial.author.name}
               variants={cardVariants}
               initial='offscreen'
               whileInView='onscreen'
