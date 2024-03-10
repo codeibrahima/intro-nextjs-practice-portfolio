@@ -31,7 +31,7 @@ export const Testimonials = () => {
             >
               <figure className='rounded-xl bg-secondary p-8 text-sm leading-6'>
                 <blockquote className='text-gray-900'>
-                  <p>"{testimonial.body}</p>
+                  <p>{testimonial.body}</p>
                 </blockquote>
                 <figcaption className='mt-6 flex items-center gap-x-4'>
                   <img
